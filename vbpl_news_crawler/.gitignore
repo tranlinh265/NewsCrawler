@@ -1,0 +1,5 @@
+vbpl_news_crawler/*.pyc
+
+vbpl_news_crawler/spiders/*.pyc
+
+vbpl_news_crawler/__pycache__

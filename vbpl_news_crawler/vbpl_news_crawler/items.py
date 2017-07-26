@@ -9,14 +9,11 @@ import scrapy
 
 
 class VbplNewsCrawlerItem(scrapy.Item):
-    doc_title = scrapy.Field()
-    doc_url = scrapy.Field()
-    doc_id = scrapy.Field()
-    doc_description = scrapy.Field()
-    doc_content = scrapy.Field()
-    doc_date = scrapy.Field()
-    created_at = scrapy.Field()
-    updated_at = scrapy.Field()
-
-    
-
+  doc_id = scrapy.Field()
+  title = scrapy.Field()
+  url = scrapy.Field()
+  description = scrapy.Field()
+  content = scrapy.Field()
+  public_date = scrapy.Field()
+  created_at = scrapy.Field()
+  updated_at = scrapy.Field()
